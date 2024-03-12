@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/screens/Users/Users.tsx:24](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/screens/Users/Users.tsx#L24)
+[src/screens/Users/Users.tsx:23](https://github.com/takshakmudgal/talawa-admin/blob/822fbcb/src/screens/Users/Users.tsx#L23)
