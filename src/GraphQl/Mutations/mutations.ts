@@ -581,6 +581,21 @@ export { CREATE_ACTION_ITEM_MUTATION } from './ActionItemMutations';
 export { UPDATE_ACTION_ITEM_MUTATION } from './ActionItemMutations';
 export { DELETE_ACTION_ITEM_MUTATION } from './ActionItemMutations';
 
+// Create, Delete and Update Agenda Categories
+export { CREATE_AGENDA_CATEGORY_MUTATION } from './AgendaCategoryMutations';
+export { DELETE_AGENDA_CATEOGRY_MUTATION } from './AgendaCategoryMutations';
+export { UPDATE_AGENDA_CATEGORY_MUTATION } from './AgendaCategoryMutations';
+
+// Create, Remove and Update Agenda Items
+export { CREATE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
+export { REMOVE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
+export { UPDATE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
+
+// Create, Remove and Update Agenda Sections
+export { CREATE_AGENDA_SECTION_MUTATION } from './AgendaSectionMutations';
+export { REMOVE_AGENDA_SECTION_MUTATION } from './AgendaSectionMutations';
+export { UPDATE_AGENDA_SECTION_MUTATION } from './AgendaSectionMutations';
+
 // Changes the role of a event in an organization and add and remove the event from the organization
 export { ADD_EVENT_ATTENDEE } from './EventAttendeeMutations';
 export { REMOVE_EVENT_ATTENDEE } from './EventAttendeeMutations';
