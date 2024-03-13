@@ -10,7 +10,6 @@ export const CREATE_AGENDA_CATEGORY_MUTATION = gql`
   mutation CreateAgendaCategory($input: CreateAgendaCategoryInput!) {
     createAgendaCategory(input: $input) {
       _id
-      name
     }
   }
 `;
@@ -41,8 +40,6 @@ export const UPDATE_AGENDA_CATEGORY_MUTATION = gql`
   ) {
     updateAgendaCategory(id: $updateAgendaCategoryId, input: $input) {
       _id
-      name
-      description
     }
   }
 `;
