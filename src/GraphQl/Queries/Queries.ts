@@ -583,6 +583,16 @@ export { ACTION_ITEM_CATEGORY_LIST } from './ActionItemCategoryQueries';
 // get the list of Action Items
 export { ACTION_ITEM_LIST } from './ActionItemQueries';
 
+// get the list of Agenda Category
+export { AGENDA_CATEGORY } from './AgendaCategoryQueries';
+
+// get the list of Agenda Items
+export { GET_AGENDA_ITEMS } from './AgendaItemQueries';
+export { GET_ALL_AGENDA_ITEMS } from './AgendaItemQueries';
+
+// get the list of Agenda Section
+export { GET_AGENDA_SECTION } from './AgendaSectionQueries';
+
 // to take the list of the blocked users
 export {
   ADVERTISEMENTS_GET,
