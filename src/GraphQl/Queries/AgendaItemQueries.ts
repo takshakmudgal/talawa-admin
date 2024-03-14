@@ -7,9 +7,17 @@ import gql from 'graphql-tag';
  * @returns Agenda item associated with the id.
  */
 
-export const GET_AGENDA_ITEM = gql`
+export const GET_AGENDA_ITEMS = gql`
   query GetAgendaItem($getAgendaItemId: ID!) {
     getAgendaItem(id: $getAgendaItemId) {
+      _id
+    }
+  }
+`;
+
+export const GET_ALL_AGENDA_ITEMS = gql`
+  query GetAllAgendaItems {
+    getAllAgendaItems {
       _id
     }
   }
