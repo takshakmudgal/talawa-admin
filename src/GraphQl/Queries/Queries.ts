@@ -584,10 +584,10 @@ export { ACTION_ITEM_CATEGORY_LIST } from './ActionItemCategoryQueries';
 export { ACTION_ITEM_LIST } from './ActionItemQueries';
 
 // get the list of Agenda Category
-export { AGENDA_CATEGORY } from './AgendaCategoryQueries';
+export { AGENDA_ITEM_CATEGORY_LIST } from './AgendaCategoryQueries';
 
 // get the list of Agenda Items
-export { GET_AGENDA_ITEMS } from './AgendaItemQueries';
+export { AGENDA_ITEM_LIST } from './AgendaItemQueries';
 export { GET_ALL_AGENDA_ITEMS } from './AgendaItemQueries';
 
 // get the list of Agenda Section

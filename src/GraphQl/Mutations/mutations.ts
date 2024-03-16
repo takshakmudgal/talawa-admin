@@ -582,13 +582,13 @@ export { UPDATE_ACTION_ITEM_MUTATION } from './ActionItemMutations';
 export { DELETE_ACTION_ITEM_MUTATION } from './ActionItemMutations';
 
 // Create, Delete and Update Agenda Categories
-export { CREATE_AGENDA_CATEGORY_MUTATION } from './AgendaCategoryMutations';
-export { DELETE_AGENDA_CATEOGRY_MUTATION } from './AgendaCategoryMutations';
-export { UPDATE_AGENDA_CATEGORY_MUTATION } from './AgendaCategoryMutations';
+export { CREATE_AGENDA_ITEM_CATEGORY_MUTATION } from './AgendaItemCategoryMutations';
+export { DELETE_AGENDA_ITEM_CATEOGRY_MUTATION } from './AgendaItemCategoryMutations';
+export { UPDATE_AGENDA_ITEM_CATEGORY_MUTATION } from './AgendaItemCategoryMutations';
 
 // Create, Remove and Update Agenda Items
 export { CREATE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
-export { REMOVE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
+export { DELETE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
 export { UPDATE_AGENDA_ITEM_MUTATION } from './AgendaItemMutations';
 
 // Create, Remove and Update Agenda Sections

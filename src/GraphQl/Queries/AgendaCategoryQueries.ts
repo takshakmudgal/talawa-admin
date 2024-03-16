@@ -7,7 +7,7 @@ import gql from 'graphql-tag';
  * @returns Agenda category associated with the id.
  */
 
-export const AGENDA_CATEGORY = gql`
+export const AGENDA_ITEM_CATEGORY_LIST = gql`
   query AgendaCategory($agendaCategoryId: ID!) {
     agendaCategory(id: $agendaCategoryId) {
       _id

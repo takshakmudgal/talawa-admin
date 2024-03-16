@@ -20,7 +20,7 @@ export const CREATE_AGENDA_ITEM_MUTATION = gql`
  * @param removeAgentItemId - ID of the AgendaItem to be removed.
  */
 
-export const REMOVE_AGENDA_ITEM_MUTATION = gql`
+export const DELETE_AGENDA_ITEM_MUTATION = gql`
   mutation RemoveAgendaItem($removeAgendaItemId: ID!) {
     removeAgendaItem(id: $removeAgendaItemId) {
       _id

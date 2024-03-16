@@ -6,7 +6,7 @@ import gql from 'graphql-tag';
  * @param input - Name, Description, OrganizationID of the AgendaCategory.
  */
 
-export const CREATE_AGENDA_CATEGORY_MUTATION = gql`
+export const CREATE_AGENDA_ITEM_CATEGORY_MUTATION = gql`
   mutation CreateAgendaCategory($input: CreateAgendaCategoryInput!) {
     createAgendaCategory(input: $input) {
       _id
@@ -20,7 +20,7 @@ export const CREATE_AGENDA_CATEGORY_MUTATION = gql`
  * @param deleteAgendaCategoryId - The ID of the AgendaCategory to be deleted.
  */
 
-export const DELETE_AGENDA_CATEOGRY_MUTATION = gql`
+export const DELETE_AGENDA_ITEM_CATEOGRY_MUTATION = gql`
   mutation DeleteAgendaCategory($deleteAgendaCategoryId: ID!) {
     deleteAgendaCategory(id: $deleteAgendaCategoryId)
   }
@@ -33,7 +33,7 @@ export const DELETE_AGENDA_CATEOGRY_MUTATION = gql`
  * @param input - Updated Name, Description, OrganizationID of the AgendaCategory.
  */
 
-export const UPDATE_AGENDA_CATEGORY_MUTATION = gql`
+export const UPDATE_AGENDA_ITEM_CATEGORY_MUTATION = gql`
   mutation UpdateAgendaCategory(
     $updateAgendaCategoryId: ID!
     $input: UpdateAgendaCategoryInput!
