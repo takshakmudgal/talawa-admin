@@ -8,8 +8,8 @@ import gql from 'graphql-tag';
  */
 
 export const AGENDA_ITEM_CATEGORY_LIST = gql`
-  query AgendaCategory($agendaCategoryId: ID!) {
-    agendaCategory(id: $agendaCategoryId) {
+  query AgendaCategory($organizationId: ID!) {
+    agendaCategory(id: $organizationId) {
       _id
       name
     }
