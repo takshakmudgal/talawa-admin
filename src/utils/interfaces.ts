@@ -316,3 +316,49 @@ export interface InterfaceCreateCampaign {
   campaignStartDate: Date;
   campaignEndDate: Date;
 }
+export interface InterfaceAgendaItemCategoryInfo {
+  _id: string;
+  name: string;
+  isDisabled: boolean;
+}
+
+export interface InterfaceAgendaItemCategoryList {
+  agendaCategory: InterfaceAgendaItemCategoryInfo[];
+}
+
+export interface InterfaceAgendaItemInfo {
+  _id: string;
+  assignee: {
+    _id: string;
+    firstName: string;
+    lastName: string;
+  };
+  assigner: {
+    _id: string;
+    firstName: string;
+    lastName: string;
+  };
+  agendaItemCategory: {
+    _id: string;
+    name: string;
+  };
+  preCompletionNotes: string;
+  postCompletionNotes: string;
+  assignmentDate: Date;
+  dueDate: Date;
+  completionDate: Date;
+  isCompleted: boolean;
+  event: {
+    _id: string;
+    title: string;
+  };
+  creator: {
+    _id: string;
+    firstName: string;
+    lastName: string;
+  };
+}
+
+export interface InterfaceAgendaItemList {
+  agendaItemsByOrganization: InterfaceAgendaItemInfo[];
+}

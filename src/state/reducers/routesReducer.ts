@@ -70,6 +70,11 @@ const components: ComponentType[] = [
     comp_id: 'orgactionitems',
     component: 'OrganizationActionItems',
   },
+  {
+    name: 'Agenda Items',
+    comp_id: 'orgagendaitems',
+    component: 'OrganizationAgendaItems',
+  },
   { name: 'Posts', comp_id: 'orgpost', component: 'OrgPost' },
   { name: 'Block/Unblock', comp_id: 'blockuser', component: 'BlockUser' },
   { name: 'Advertisement', comp_id: 'orgads', component: 'Advertisements' },

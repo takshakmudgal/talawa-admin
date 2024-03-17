@@ -14,6 +14,7 @@ import OrgList from 'screens/OrgList/OrgList';
 import OrgPost from 'screens/OrgPost/OrgPost';
 import OrgSettings from 'screens/OrgSettings/OrgSettings';
 import OrganizationActionItems from 'screens/OrganizationActionItems/OrganizationActionItems';
+import OrganizationAgendaItems from 'screens/OrganizationAgendaItems/OrganizationAgendaItems';
 import OrganizationDashboard from 'screens/OrganizationDashboard/OrganizationDashboard';
 import OrganizationEvents from 'screens/OrganizationEvents/OrganizationEvents';
 import OrganizaitionFundCampiagn from 'screens/OrganizationFundCampaign/OrganizationFundCampagins';
@@ -92,6 +93,10 @@ function app(): JSX.Element {
             <Route
               path="/orgactionitems/:orgId"
               element={<OrganizationActionItems />}
+            />
+            <Route
+              path="/orgagendaitems/:orgId"
+              element={<OrganizationAgendaItems />}
             />
             <Route path="/orgfunds/:orgId" element={<OrganizationFunds />} />
             <Route
